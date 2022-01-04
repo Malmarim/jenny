@@ -1,0 +1,8 @@
+{   
+  "parameters": { 
+    "org": "example_customer", 
+    "description":"Issue description"
+}, 
+  "query": "message"
+}
+

@@ -1,0 +1,20 @@
+{
+  "humanName": "Create ticket",
+  "hint": "This action creates ticket to org example_customer",
+  "actionInput": {
+    "org": "example_customer",
+    "description": "<<<Description>>>"
+  },
+  "params": [
+    {
+      "name": "Description",
+      "hint": "Issue description",
+      "type": "Text",
+      "defaultValue":"%description.0%",
+      "mandatory": true
+    }
+  ],
+  "ref": "myorg_create_ticket",
+  "endpoint": "ENDPOINT",
+  "token": "APIKEY"
+}
