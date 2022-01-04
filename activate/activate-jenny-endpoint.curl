@@ -1,5 +1,5 @@
 curl -X 'POST' \
-'DEVELOPERS API ENDPOINT' \
+'###getJennyAPI###' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
 -d '{
